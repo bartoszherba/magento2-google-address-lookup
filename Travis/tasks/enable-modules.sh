@@ -2,5 +2,5 @@
 #### Enables required modules
 MODULES=${1:-"--all"}
 
-cd magento2
+cd ${MAGE_ROOT}
 php bin/magento module:enable $MODULES

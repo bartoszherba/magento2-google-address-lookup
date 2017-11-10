@@ -2,7 +2,7 @@
 #### Installs Magento2
 DB=${1:-"magento2"}
 
-cd magento2
+cd ${MAGE_ROOT}
 
 echo Installing magento...
 php bin/magento setup:install \

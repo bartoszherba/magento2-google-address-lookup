@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 #### Configuring grunt along with installation of npm packages
 
-cd magento2
+echo Configure grunt
 
-cp ../Travis/config/Gruntfile.js.sample Gruntfile.js
-cp ../Travis/config/package.json.sample package.json
-cp ../Travis/config/settings.json.sample dev/tests/js/jasmine/spec_runner/settings.json
+cp Travis/config/Gruntfile.js.sample ${MAGE_ROOT}/Gruntfile.js
+cp Travis/config/package.json.sample ${MAGE_ROOT}/package.json
+cp Travis/config/settings.json.sample ${MAGE_ROOT}/dev/tests/js/jasmine/spec_runner/settings.json
+
+cd ${MAGE_ROOT}
 
 npm install
 
