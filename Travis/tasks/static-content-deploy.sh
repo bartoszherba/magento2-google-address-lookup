@@ -3,5 +3,4 @@
 
 OPTIONS=${1:-""}
 
-cd magento2
-php bin/magento setup:static-content:deploy $OPTIONS
+php ${MAGE_ROOT}/bin/magento setup:static-content:deploy $OPTIONS
