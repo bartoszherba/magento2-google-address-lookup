@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # Execute PHPUnit tests
 
-
-
 #### Copy configuration and run phpunit tests
 cp -R Travis/config/phpunit.xml.dist ${MAGE_ROOT}/dev/tests/unit/phpunit.xml
 

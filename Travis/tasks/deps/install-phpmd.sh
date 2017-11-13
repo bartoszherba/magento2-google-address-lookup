@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-composer require phpmd/phpmd:@stable
+composer require "sebastian/phpcpd"
 

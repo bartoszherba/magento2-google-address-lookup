@@ -13,6 +13,11 @@
       "url": "https://repo.magento.com/"
     }
   ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "1.5.3",
+    "phpmd/phpmd": "@stable",
+    "sebastian/phpcpd": "2.0.0"
+  },
   "authors": [
     {
       "name": "Bartosz Herba",
